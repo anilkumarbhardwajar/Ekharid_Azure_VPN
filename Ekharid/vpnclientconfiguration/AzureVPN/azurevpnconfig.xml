@@ -1,0 +1,35 @@
+<AzVpnProfile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/">
+  <any xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Xml" i:nil="true" />
+  <clientauth>
+    <aad i:nil="true" />
+    <cert>
+      <hash i:nil="true" />
+      <issuer>4a6aecac6763536f0dcacc2bd697fb582bc84403</issuer>
+    </cert>
+    <type>cert</type>
+    <usernamepass i:nil="true" />
+  </clientauth>
+  <clientconfig i:nil="true" />
+  <name>Ekharid-APP-vnet</name>
+  <protocolconfig>
+    <sslprotocolConfig>
+      <transportprotocol>tcp</transportprotocol>
+    </sslprotocolConfig>
+  </protocolconfig>
+  <serverlist>
+    <ServerEntry>
+      <displayname i:nil="true" />
+      <fqdn>azuregateway-2785006c-bc2d-4fdd-bf69-ac6ffa2870e3-69e3f1ae5897.vpn.azure.com</fqdn>
+    </ServerEntry>
+  </serverlist>
+  <servervalidation>
+    <Cert>
+      <hash>DF3C24F9BFD666761B268073FE06D1CC8D4F82A4</hash>
+      <issuer i:nil="true" />
+    </Cert>
+    <serversecret>d1331f93fe2803e853cc5aa40710de31fd3205ae6631af8be392c45a936d4551a8527a49276b7f3e4bec157efcd5f86149fac77a463e76fa378433f57dcf0c9e63fb70437a0f518a945f4d8aa11857e715d4a1804e289123a2067a2e184d3abc4d0aad6dd8ab4a36a6e45009690c90c7260b8ff3b5c5ccfc758023296ce39f65b0f6d7268c14ae3e0c75b5dd0557f2a6b7adb00e561392e05091d4b51a9dfe739a81c64c66caa552e7af462e08067f217c5fa8a9e273b5e7646b3f90ef43828a5d0297541967caa98e347ce2de305762c2db74388636a9324af0dcc2a3226726a69bf59501e074b1e9f630fa29a9cd8b22ca84d305e906512d961b2c83ded38a</serversecret>
+    <type>cert</type>
+    <usepinnedroot>false</usepinnedroot>
+  </servervalidation>
+  <version>1</version>
+</AzVpnProfile>
